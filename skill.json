@@ -1,0 +1,12 @@
+{
+  "name": "cross-platform-script-writer",
+  "description": "跨平台 CLI 工具自动化部署脚本生成规范",
+  "version": "2.0.0",
+  "author": "xiaoyaojiugui168",
+  "repository": "https://github.com/xiaoyaojiugui168/cross-platform-script-writer",
+  "files": [
+    "config.json",
+    "setup.sh",
+    "setup.ps1"
+  ]
+}
