@@ -1,0 +1,35 @@
+{
+  "log_level": "INFO",
+  "timestamp_format": "%Y-%m-%d %H:%M:%S",
+  "app": {
+    "name": "app-name",
+    "description": "Application description",
+    "default_version": "1.0.0",
+    "versions": ["1.0.0", "0.9.0"]
+  },
+  "platforms": {
+    "darwin": {
+      "install_method": "curl",
+      "install_dir": "~/.local/app-name",
+      "data_dir": "~/.local/share/app-name",
+      "backup_dir": "~/backups/app-name"
+    },
+    "linux": {
+      "install_method": "curl",
+      "install_dir": "~/.local/app-name",
+      "data_dir": "~/.local/share/app-name",
+      "backup_dir": "~/backups/app-name"
+    },
+    "windows": {
+      "install_method": "scoop",
+      "install_dir": "%LOCALAPPDATA%\\app-name",
+      "data_dir": "%LOCALAPPDATA%\\app-name\\data",
+      "backup_dir": "%USERPROFILE%\\backups\\app-name"
+    }
+  },
+  "shell_profile": {
+    "bash": "",
+    "zsh": "",
+    "powershell": ""
+  }
+}
