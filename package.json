@@ -1,0 +1,19 @@
+{
+  "name": "@xiaoyaojiugui168/cross-platform-script-writer",
+  "version": "2.0.0",
+  "description": "跨平台 CLI 工具自动化部署脚本生成规范",
+  "main": "skill.json",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaoyaojiugui168/cross-platform-script-writer.git"
+  },
+  "keywords": ["skill", "opencode", "cross-platform", "deployment", "script"],
+  "author": "xiaoyaojiugui168",
+  "license": "MIT",
+  "files": [
+    "config.json",
+    "setup.sh",
+    "setup.ps1",
+    "skill.json"
+  ]
+}
